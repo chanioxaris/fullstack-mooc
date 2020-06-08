@@ -6,3 +6,7 @@ The course itself is divided into 10 parts, and the repository also follows this
 ### [Part 1](part1)
 
 ### [Part 2](part2)
+
+### [Part 3](part3)
+
+Phonebook application deployed on [heroku](https://chanioxaris-mooc-phonebook.herokuapp.com/)
