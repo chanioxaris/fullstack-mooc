@@ -3,10 +3,10 @@ Contains my solutions for the [Full stack open](https://fullstackopen.com/en/) (
 
 The course itself is divided into 10 parts, and the repository also follows this structure. 
 
-### [Part 1](part1)
+### [Part 0](part0/Part0.md)
 
-### [Part 2](part2)
+### [Part 1](part1/Part1.md)
 
-### [Part 3](part3)
+### [Part 2](part2/Part2.md)
 
-Phonebook application deployed on [heroku](https://chanioxaris-mooc-phonebook.herokuapp.com/)
+### [Part 3](part3/Part3.md)
