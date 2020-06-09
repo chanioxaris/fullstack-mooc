@@ -61,7 +61,7 @@ const App = () => {
                 })
                 .catch(error => {
                     setNotification({
-                        message: `failed to update number of ${newName}`,
+                        message: error.response.data.error,
                         is_error: true
                     })
 
@@ -95,7 +95,7 @@ const App = () => {
             })
             .catch(error => {
                 setNotification({
-                    message: `failed to create ${newPerson.name}`,
+                    message: error.response.data.error,
                     is_error: true
                 })
 

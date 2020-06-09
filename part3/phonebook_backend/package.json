@@ -8,17 +8,21 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ui": "rm -rf build && cd ../phonebook_frontend && npm run build --prod && cp -r build ../phonebook_backend/",
-    "deploy": "git push heroku master",
-    "logs": "heroku logs -t"
+    "deploy": "git push heroku master -f",
+    "logs": "heroku logs -t",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.2.0",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
     "@types/express": "^4.17.6",
     "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.10.0"
   }
 }
