@@ -5,7 +5,7 @@ const notificationReducer = (state = initialState, action) => {
         case "NOTIFICATION_SET":
             return action.data
         case "NOTIFICATION_CLEAR":
-             return initialState
+            return initialState
         default:
             return state
     }
