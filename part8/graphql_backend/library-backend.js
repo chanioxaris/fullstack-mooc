@@ -1,13 +1,12 @@
-const { ApolloServer, gql, UserInputError, AuthenticationError } = require("apollo-server")
+const { ApolloServer, gql, PubSub, UserInputError, AuthenticationError } = require("apollo-server")
 const mongoose = require("mongoose")
 const jwt = require("jsonwebtoken")
-const { PubSub } = require("apollo-server")
 
 const Book = require("./models/book")
 const Author = require("./models/author")
 const User = require("./models/user")
 
-const MONGODB_URI = "mongodb+srv://mooc-fullstack:2tzx2cp03tocJCvU@cluster0-2pev1.mongodb.net/graphql?retryWrites=true&w=majority"
+const MONGODB_URI = process.env.MONGODB_URI
 const JWT_SECRET = "super_secret"
 
 const pubSub = new PubSub()
