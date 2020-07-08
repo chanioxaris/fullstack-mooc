@@ -23,38 +23,11 @@ const User = ({ userBlogs }) => {
                             </ListItemIcon>
                             <ListItemText
                                 primary={blog.title}
-                                // secondary={secondary ? 'Secondary text' : null}
                             />
                         </ListItem>
-
-
-                    // <li key={blog.id}>
-                    //     {blog.title}
-                    // </li>
                     )
                 }
-
-
-                {/*{generate(*/}
-                {/*    <ListItem>*/}
-                {/*        <ListItemIcon>*/}
-                {/*            <FolderIcon />*/}
-                {/*        </ListItemIcon>*/}
-                {/*        <ListItemText*/}
-                {/*            primary="Single-line item"*/}
-                {/*            secondary={secondary ? 'Secondary text' : null}*/}
-                {/*        />*/}
-                {/*    </ListItem>*/}
-                {/*)}*/}
             </List>
-
-            {/*<ul>*/}
-            {/*    {userBlogs.map(blog =>*/}
-            {/*        <li key={blog.id}>*/}
-            {/*            {blog.title}*/}
-            {/*        </li>*/}
-            {/*    )}*/}
-            {/*</ul>*/}
         </div>
     )
 }
