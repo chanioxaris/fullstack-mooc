@@ -20,3 +20,5 @@ The course itself is divided into 10 parts, and the repository also follows this
 ### [Part 7](part7/Part7.md)
 
 ### [Part 8](part8/Part8.md)
+
+### [Part 9](part9/Part9.md)
